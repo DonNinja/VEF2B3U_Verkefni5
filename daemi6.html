@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dæmi 6</title>
+</head>
+<body>
+	<ul><li id="one">freshfigs</li><li>pine nuts</li><li>honey</li><li>balsamic vinegar</li></ul>
+
+	<p id="writeout"></p>
+	<script type="text/javascript">
+		let elList = document.getElementById('one').nextSibling.innerHTML;
+
+		document.getElementById("writeout").innerHTML = elList;
+	</script>
+</body>
+</html>
