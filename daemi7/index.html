@@ -3,12 +3,21 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>Spurning 1</title>
+	<meta charset="utf-8">
 </head>
 <body>
-	<button onclick="Rett()" id="corr">Rétt svar</button>
+	<h1>Hver er drottning Englands?</h1>
+	<a href="">Mynd af DOM tréi</a>
+	<a href="spurn2.html">Spurning nr. 2</a>
+	<div class="buttons">
+		<button onclick="Click()">Margaret Thatcher</button>
+		<button onclick="Click()">Theresa May</button>
+		<button onclick="Click()" id="corr">Elizabeth II</button>
+		<button onclick="Click()">Zara Tindall</button>
+	</div>
 
 	<script type="text/javascript">
-		/*function Rett() {
+		function Click() {
 			let richt = document.getElementById('corr');
 			let falsch = document.querySelectorAll("button");
 
@@ -17,9 +26,7 @@
 			}
 
 			richt.style.backgroundColor = "green";
-		}*/
-
-
+		}
 	</script>
 </body>
 </html>
